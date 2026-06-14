@@ -1,5 +1,5 @@
 import axios from 'axios';
-import CLOG from '../Utils/CLOG.js';
+import CLOG from '../Utils/Clog.js';
 
 const CRICAPI_KEY = process.env.CRICAPI_KEY || 'f4f3d096-e150-4273-a46b-156361ca0583';
 const CRICAPI_BASE_URL = 'https://api.cricapi.com/v1';
