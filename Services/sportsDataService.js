@@ -1,5 +1,5 @@
 import CricketDataService from './cricketDataService.js';
-import CLOG from '../Utils/CLOG.js';
+import CLOG from '../Utils/Clog.js';
 
 class SportsDataService {
   /**

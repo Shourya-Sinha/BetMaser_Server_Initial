@@ -5,7 +5,7 @@ import { User } from '../Models/index.js';
 import ApiResponse from '../Utils/responseHandler.js';
 import CLOG from '../Utils/Clog.js';
 
-import { KYC } from '../models/index.js';
+import { KYC } from '../Models/index.js';
 
 class AuthMiddleware {
   /**

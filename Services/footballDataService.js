@@ -1,5 +1,5 @@
 import axios from 'axios';
-import CLOG from '../Utils/CLOG.js';
+import CLOG from '../Utils/Clog.js';
 
 const WORLD_CUP_BASE_URL = 'https://worldcup26.ir';
 const JWT_TOKEN = process.env.WORLDCUP_JWT_TOKEN || ''; // Optional for public endpoints
