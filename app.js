@@ -25,8 +25,8 @@ import {
 dotenv.config();
 
 // Import custom modules
-import CLOG from './utils/Clog.js';
-import ApiResponse from './utils/responseHandler.js';
+import CLOG from './Utils/Clog.js';
+import ApiResponse from './Utils/responseHandler.js';
 import { globalErrorHandler, AppError } from './Utils/errorHandler.js';
 
 // Import routes
