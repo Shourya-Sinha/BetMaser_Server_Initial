@@ -1,5 +1,3 @@
-# In your project root directory, create README.md
-cat > README.md << 'EOF'
 # 🎮 BetMaster - Ultimate Sports Betting & Fantasy Gaming Platform
 
 <div align="center">
