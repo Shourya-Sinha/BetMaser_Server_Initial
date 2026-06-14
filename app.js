@@ -25,7 +25,7 @@ import {
 dotenv.config();
 
 // Import custom modules
-import CLOG from './utils/clog.js';
+import CLOG from './utils/Clog.js';
 import ApiResponse from './utils/responseHandler.js';
 import { globalErrorHandler, AppError } from './Utils/errorHandler.js';
 
@@ -84,7 +84,7 @@ app.use(helmet({
 
 const allowedOrigins = process.env.ALLOWED_ORIGINS
     ? process.env.ALLOWED_ORIGINS.split(',')
-    : ['http://localhost:3000', 'http://localhost:8081', 'http:localhost:5000','http://127.0.0.1:5000'];
+    : ['http://localhost:3000', 'http://localhost:8081', 'http:localhost:5000','http://127.0.0.1:5000','https://betmaser-server-initial.onrender.com'];
 // CORS configuration
 // const corsOptions = {
 //     origin: function (origin, callback) {
